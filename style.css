@@ -1,4 +1,64 @@
-.banner {
+/*Pour faire l'import des autres fichiers css */
+@import "css/navbar.css";
+@import "css/carrousel.css";
+@import "css/card.css";
+@import "css/grid.css";
+@import "css/button.css";
+
+
+/*Ajouter ces 2 propriétés pour faire défiler doucement lorsqu'on clique sur une ancre / Scroll beau*/
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -18,3 +78,4 @@
   opacity: .7;
   text-shadow: 0.5px 0.5px 0.5px grey;
 }
+*/

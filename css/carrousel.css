@@ -1,0 +1,6 @@
+.img-carrousel {
+  height:60vh;
+  object-fit: cover;
+  opacity: 0.7;
+  /*Pour l'opacité, possibilité d'utiliser un linear-gradient(grey, black);*/
+}
