@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px grey;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo > img {
+  /*Attention cela permet d'atteindre l'image qui est dans la classe logo*/
+  height: 70px;
+  width: 70px;
+  /*Pour ne pas déformer l'image*/
+  object-fit: cover;
+  /*pour rendre l'image ronde mais il faut avoir une height et width égale*/
+  border-radius: 50%;
+}
+
+
+.link {
+  text-decoration: none;
+  margin: 20px;
+  padding: 15px;
+  background: blue;
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background-color: pink;
+}

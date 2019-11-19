@@ -1,0 +1,10 @@
+
+.contain-card {
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.contain-card-left {
+  width:300px;
+}

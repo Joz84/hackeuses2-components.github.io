@@ -1,0 +1,7 @@
+.img-height{
+  height: 30vh;
+}
+
+.img-fit{
+  object-fit: cover;
+}
